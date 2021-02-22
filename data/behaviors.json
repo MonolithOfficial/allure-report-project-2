@@ -1,0 +1,198 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "A rather large test case demonstrating about 96.29 horsepower of my brain,\nalso, underlining many testing capabilities of frameworks\nsuch as Selenide / TestNG and several general programming\napproaches such as the fluent style.",
+    "children" : [ {
+      "name" : "Main test block, a reactor core, if you will",
+      "children" : [ {
+        "name" : "As a happy person, I'd like to be able to share the happy discounts that I found with my happy friends.",
+        "children" : [ {
+          "name" : "Sharing Unit",
+          "uid" : "ce0677cb66ea6e80",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997327888,
+            "stop" : 1613997334707,
+            "duration" : 6819
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@32ee83bd" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "83e3eb0161659a94",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997334727,
+            "stop" : 1613997339614,
+            "duration" : 4887
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@9a8905ae" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "b13b11af25382d58",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997566598,
+            "stop" : 1613997572058,
+            "duration" : 5460
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@eaad9bd0" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "657e4cdf6568a1a0",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997572079,
+            "stop" : 1613997576091,
+            "duration" : 4012
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@491b9595" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "6e10785ecb56c53b",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997749469,
+            "stop" : 1613997755211,
+            "duration" : 5742
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@f518a55d" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "86480c708555ce32",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613997755230,
+            "stop" : 1613997759872,
+            "duration" : 4642
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@d3686b7e" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "4e4b97f85ab2cf60",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998191787,
+            "stop" : 1613998197056,
+            "duration" : 5269
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@ed7fbe96" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "32dce7ba751d6419",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998197072,
+            "stop" : 1613998201071,
+            "duration" : 3999
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@2cefd260" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "b0e67dd9793ab8de",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998283469,
+            "stop" : 1613998288042,
+            "duration" : 4573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@ee8ca290" ]
+        }, {
+          "name" : "Sharing Unit",
+          "uid" : "f41678183e77603f",
+          "parentUid" : "732489108efbb15072cf6a1113d8d90c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998288055,
+            "stop" : 1613998292419,
+            "duration" : 4364
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "data.Friend@1b29291b" ]
+        } ],
+        "uid" : "732489108efbb15072cf6a1113d8d90c"
+      }, {
+        "name" : "As a happy person I'd like to submit my personal data to a random clothing site, so that I can order happy clothes whenever I want..",
+        "children" : [ {
+          "name" : "Registration Unit",
+          "uid" : "6340fc3b3b7a1a7b",
+          "parentUid" : "44e8903fab824d10ee51f61acef2e794",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998259346,
+            "stop" : 1613998283089,
+            "duration" : 23743
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "44e8903fab824d10ee51f61acef2e794"
+      }, {
+        "name" : "As a happy person I'd like to be able to sequentially acquire clothing objects online without any apparent problems.",
+        "children" : [ {
+          "name" : "Buying Unit #1",
+          "uid" : "5cdcb3aadf4b03fd",
+          "parentUid" : "90602553bb3180c402010dfd898ed381",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998292441,
+            "stop" : 1613998316680,
+            "duration" : 24239
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "90602553bb3180c402010dfd898ed381"
+      }, {
+        "name" : "As an advanced human, I'd like to procure an evening dress of my choice while not being halted by technical issues beyond my control.",
+        "children" : [ {
+          "name" : "Buying Unit #2",
+          "uid" : "8c47a16de3f340a8",
+          "parentUid" : "4f0d5b89fa69fb867fbabf5299e5bbb1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613998316694,
+            "stop" : 1613998339369,
+            "duration" : 22675
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4f0d5b89fa69fb867fbabf5299e5bbb1"
+      } ],
+      "uid" : "4297f9dd215252b7aa0afdf740684f3d"
+    } ],
+    "uid" : "98bdcc469a8b4a00c2bd075f0ea9ce81"
+  } ]
+}

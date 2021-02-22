@@ -1,0 +1,228 @@
+{
+  "uid" : "883f941f9b7e13b7",
+  "name" : "Registration Unit",
+  "fullName" : "tests.MainBlock.executeRegistration",
+  "historyId" : "c0ab38752e71ff93d49fa01620c05fbc",
+  "time" : {
+    "start" : 1613997304759,
+    "stop" : 1613997327423,
+    "duration" : 22664
+  },
+  "description" : "Registration & database insertion sequence.",
+  "descriptionHtml" : "<p>Registration &amp; database insertion sequence.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ignition",
+    "time" : {
+      "start" : 1613997304595,
+      "stop" : 1613997304634,
+      "duration" : 39
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Registration & database insertion sequence.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[Landing] To registration page",
+      "time" : {
+        "start" : 1613997313696,
+        "stop" : 1613997315569,
+        "duration" : 1873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] Fill email input (for registration), Custom RegUser parameter - data.RegUser@9f86d585[firstName=Ayla,lastName=Grimes,phone=4624271419,password=therealAylaGrimes,address=2466 Ratke Crossroad,country=Georgia,state=Colorado,city=North Edwin,zip=44494,email=<null>]",
+      "time" : {
+        "start" : 1613997316520,
+        "stop" : 1613997316830,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@9f86d585[firstName=Ayla,lastName=Grimes,phone=4624271419,password=therealAylaGrimes,address=2466 Ratke Crossroad,country=Georgia,state=Colorado,city=North Edwin,zip=44494,email=<null>]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] To registration page",
+      "time" : {
+        "start" : 1613997316830,
+        "stop" : 1613997316986,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Fill the registration form",
+      "time" : {
+        "start" : 1613997317012,
+        "stop" : 1613997320584,
+        "duration" : 3572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@9f86d585[firstName=Ayla,lastName=Grimes,phone=4624271419,password=therealAylaGrimes,address=2466 Ratke Crossroad,country=Georgia,state=Colorado,city=North Edwin,zip=44494,email=Ayla732Grimes53@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] To address page",
+      "time" : {
+        "start" : 1613997320584,
+        "stop" : 1613997323274,
+        "duration" : 2690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Add user to database, parameter #1 - data.RegUser@9f86d585[firstName=Ayla,lastName=Grimes,phone=4624271419,password=therealAylaGrimes,address=2466 Ratke Crossroad,country=Georgia,state=Colorado,city=North Edwin,zip=44494,email=Ayla732Grimes53@gmail.com]",
+      "time" : {
+        "start" : 1613997323275,
+        "stop" : 1613997324312,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@9f86d585[firstName=Ayla,lastName=Grimes,phone=4624271419,password=therealAylaGrimes,address=2466 Ratke Crossroad,country=Georgia,state=Colorado,city=North Edwin,zip=44494,email=Ayla732Grimes53@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Log out (in order to exterminate interconnection between the tests)",
+      "time" : {
+        "start" : 1613997324312,
+        "stop" : 1613997327411,
+        "duration" : 3099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "disengage",
+    "time" : {
+      "start" : 1613997388348,
+      "stop" : 1613997389871,
+      "duration" : 1523
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testMethod",
+    "value" : "executeRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectTwo"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-11VL3OD"
+  }, {
+    "name" : "thread",
+    "value" : "14332@DESKTOP-11VL3OD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "As a happy person I'd like to submit my personal data to a random clothing site, so that I can order happy clothes whenever I want.."
+  }, {
+    "name" : "feature",
+    "value" : "Main test block, a reactor core, if you will"
+  }, {
+    "name" : "epic",
+    "value" : "A rather large test case demonstrating about 96.29 horsepower of my brain,\nalso, underlining many testing capabilities of frameworks\nsuch as Selenide / TestNG and several general programming\napproaches such as the fluent style."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "883f941f9b7e13b7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,228 @@
+{
+  "uid" : "77ec42424ac188ca",
+  "name" : "Registration Unit",
+  "fullName" : "tests.MainBlock.executeRegistration",
+  "historyId" : "c0ab38752e71ff93d49fa01620c05fbc",
+  "time" : {
+    "start" : 1613997728299,
+    "stop" : 1613997749129,
+    "duration" : 20830
+  },
+  "description" : "Registration & database insertion sequence.",
+  "descriptionHtml" : "<p>Registration &amp; database insertion sequence.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ignition",
+    "time" : {
+      "start" : 1613997728117,
+      "stop" : 1613997728161,
+      "duration" : 44
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Registration & database insertion sequence.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[Landing] To registration page",
+      "time" : {
+        "start" : 1613997736681,
+        "stop" : 1613997738680,
+        "duration" : 1999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] Fill email input (for registration), Custom RegUser parameter - data.RegUser@185298cf[firstName=Leland,lastName=Blanda,phone=3271264736,password=therealLelandBlanda,address=702 Alberta Trafficway,country=Spain,state=Vermont,city=Heathtown,zip=11111,email=<null>]",
+      "time" : {
+        "start" : 1613997739539,
+        "stop" : 1613997739888,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@185298cf[firstName=Leland,lastName=Blanda,phone=3271264736,password=therealLelandBlanda,address=702 Alberta Trafficway,country=Spain,state=Vermont,city=Heathtown,zip=11111,email=<null>]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] To registration page",
+      "time" : {
+        "start" : 1613997739889,
+        "stop" : 1613997740024,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Fill the registration form",
+      "time" : {
+        "start" : 1613997740052,
+        "stop" : 1613997744274,
+        "duration" : 4222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@185298cf[firstName=Leland,lastName=Blanda,phone=3271264736,password=therealLelandBlanda,address=702 Alberta Trafficway,country=Spain,state=Vermont,city=Heathtown,zip=11111,email=Leland156Blanda109@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] To address page",
+      "time" : {
+        "start" : 1613997744274,
+        "stop" : 1613997746029,
+        "duration" : 1755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Add user to database, parameter #1 - data.RegUser@185298cf[firstName=Leland,lastName=Blanda,phone=3271264736,password=therealLelandBlanda,address=702 Alberta Trafficway,country=Spain,state=Vermont,city=Heathtown,zip=11111,email=Leland156Blanda109@gmail.com]",
+      "time" : {
+        "start" : 1613997746030,
+        "stop" : 1613997746875,
+        "duration" : 845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@185298cf[firstName=Leland,lastName=Blanda,phone=3271264736,password=therealLelandBlanda,address=702 Alberta Trafficway,country=Spain,state=Vermont,city=Heathtown,zip=11111,email=Leland156Blanda109@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Log out (in order to exterminate interconnection between the tests)",
+      "time" : {
+        "start" : 1613997746876,
+        "stop" : 1613997749121,
+        "duration" : 2245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "disengage",
+    "time" : {
+      "start" : 1613997808130,
+      "stop" : 1613997809296,
+      "duration" : 1166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testMethod",
+    "value" : "executeRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectTwo"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-11VL3OD"
+  }, {
+    "name" : "thread",
+    "value" : "1288@DESKTOP-11VL3OD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "As a happy person I'd like to submit my personal data to a random clothing site, so that I can order happy clothes whenever I want.."
+  }, {
+    "name" : "epic",
+    "value" : "A rather large test case demonstrating about 96.29 horsepower of my brain,\nalso, underlining many testing capabilities of frameworks\nsuch as Selenide / TestNG and several general programming\napproaches such as the fluent style."
+  }, {
+    "name" : "feature",
+    "value" : "Main test block, a reactor core, if you will"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77ec42424ac188ca.json",
+  "parameterValues" : [ ]
+}

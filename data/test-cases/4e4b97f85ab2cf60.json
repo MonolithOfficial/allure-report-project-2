@@ -1,0 +1,180 @@
+{
+  "uid" : "4e4b97f85ab2cf60",
+  "name" : "Sharing Unit",
+  "fullName" : "tests.MainBlock.executeProductShare",
+  "historyId" : "b6b28a56b5b8907437985092b6988645",
+  "time" : {
+    "start" : 1613998191787,
+    "stop" : 1613998197056,
+    "duration" : 5269
+  },
+  "description" : "Emulating product sharing activity",
+  "descriptionHtml" : "<p>Emulating product sharing activity</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Emulating product sharing activity",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[Landing] Click 'best seller' tab link",
+      "time" : {
+        "start" : 1613998193502,
+        "stop" : 1613998193721,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Landing] Click on 'More' button",
+      "time" : {
+        "start" : 1613998193722,
+        "stop" : 1613998196351,
+        "duration" : 2629
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "[Landing] Retrieve discounted product",
+        "time" : {
+          "start" : 1613998193722,
+          "stop" : 1613998193994,
+          "duration" : 272
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Discounted Product] Click 'send to a friend' link",
+      "time" : {
+        "start" : 1613998196399,
+        "stop" : 1613998196631,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Discounted Product] Fill in friend information, Custom Friend parameter - data.Friend@ed7fbe96",
+      "time" : {
+        "start" : 1613998196631,
+        "stop" : 1613998196943,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "friend",
+        "value" : "data.Friend@ed7fbe96"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Discounted Product] Send email to a friend",
+      "time" : {
+        "start" : 1613998196943,
+        "stop" : 1613998197056,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testMethod",
+    "value" : "executeProductShare"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectTwo"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-11VL3OD"
+  }, {
+    "name" : "thread",
+    "value" : "11528@DESKTOP-11VL3OD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "As a happy person, I'd like to be able to share the happy discounts that I found with my happy friends."
+  }, {
+    "name" : "epic",
+    "value" : "A rather large test case demonstrating about 96.29 horsepower of my brain,\nalso, underlining many testing capabilities of frameworks\nsuch as Selenide / TestNG and several general programming\napproaches such as the fluent style."
+  }, {
+    "name" : "feature",
+    "value" : "Main test block, a reactor core, if you will"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "data.Friend@ed7fbe96"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e4b97f85ab2cf60.json",
+  "parameterValues" : [ "data.Friend@ed7fbe96" ]
+}

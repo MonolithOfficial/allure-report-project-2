@@ -1,0 +1,228 @@
+{
+  "uid" : "1ea01b2283a06693",
+  "name" : "Registration Unit",
+  "fullName" : "tests.MainBlock.executeRegistration",
+  "historyId" : "c0ab38752e71ff93d49fa01620c05fbc",
+  "time" : {
+    "start" : 1613997545899,
+    "stop" : 1613997566243,
+    "duration" : 20344
+  },
+  "description" : "Registration & database insertion sequence.",
+  "descriptionHtml" : "<p>Registration &amp; database insertion sequence.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ignition",
+    "time" : {
+      "start" : 1613997545724,
+      "stop" : 1613997545769,
+      "duration" : 45
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Registration & database insertion sequence.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[Landing] To registration page",
+      "time" : {
+        "start" : 1613997554410,
+        "stop" : 1613997556630,
+        "duration" : 2220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] Fill email input (for registration), Custom RegUser parameter - data.RegUser@3f51421f[firstName=Cassidy,lastName=Leuschke,phone=6766811883,password=therealCassidyLeuschke,address=7444 April Isle,country=Kenya,state=Arkansas,city=Port Annettamouth,zip=11111,email=<null>]",
+      "time" : {
+        "start" : 1613997557431,
+        "stop" : 1613997557649,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@3f51421f[firstName=Cassidy,lastName=Leuschke,phone=6766811883,password=therealCassidyLeuschke,address=7444 April Isle,country=Kenya,state=Arkansas,city=Port Annettamouth,zip=11111,email=<null>]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Login] To registration page",
+      "time" : {
+        "start" : 1613997557649,
+        "stop" : 1613997557800,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Fill the registration form",
+      "time" : {
+        "start" : 1613997557827,
+        "stop" : 1613997561020,
+        "duration" : 3193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@3f51421f[firstName=Cassidy,lastName=Leuschke,phone=6766811883,password=therealCassidyLeuschke,address=7444 April Isle,country=Kenya,state=Arkansas,city=Port Annettamouth,zip=11111,email=Cassidy750Leuschke306@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] To address page",
+      "time" : {
+        "start" : 1613997561020,
+        "stop" : 1613997563424,
+        "duration" : 2404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Add user to database, parameter #1 - data.RegUser@3f51421f[firstName=Cassidy,lastName=Leuschke,phone=6766811883,password=therealCassidyLeuschke,address=7444 April Isle,country=Kenya,state=Arkansas,city=Port Annettamouth,zip=11111,email=Cassidy750Leuschke306@gmail.com]",
+      "time" : {
+        "start" : 1613997563425,
+        "stop" : 1613997564243,
+        "duration" : 818
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "data.RegUser@3f51421f[firstName=Cassidy,lastName=Leuschke,phone=6766811883,password=therealCassidyLeuschke,address=7444 April Isle,country=Kenya,state=Arkansas,city=Port Annettamouth,zip=11111,email=Cassidy750Leuschke306@gmail.com]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[Registration] Log out (in order to exterminate interconnection between the tests)",
+      "time" : {
+        "start" : 1613997564244,
+        "stop" : 1613997566231,
+        "duration" : 1987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "disengage",
+    "time" : {
+      "start" : 1613997629454,
+      "stop" : 1613997630505,
+      "duration" : 1051
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "testMethod",
+    "value" : "executeRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectTwo"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.MainBlock"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-11VL3OD"
+  }, {
+    "name" : "thread",
+    "value" : "12788@DESKTOP-11VL3OD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "As a happy person I'd like to submit my personal data to a random clothing site, so that I can order happy clothes whenever I want.."
+  }, {
+    "name" : "epic",
+    "value" : "A rather large test case demonstrating about 96.29 horsepower of my brain,\nalso, underlining many testing capabilities of frameworks\nsuch as Selenide / TestNG and several general programming\napproaches such as the fluent style."
+  }, {
+    "name" : "feature",
+    "value" : "Main test block, a reactor core, if you will"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ea01b2283a06693.json",
+  "parameterValues" : [ ]
+}

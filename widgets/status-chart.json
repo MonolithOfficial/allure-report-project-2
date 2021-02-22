@@ -1,0 +1,131 @@
+[ {
+  "uid" : "657e4cdf6568a1a0",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997572079,
+    "stop" : 1613997576091,
+    "duration" : 4012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cdcb3aadf4b03fd",
+  "name" : "Buying Unit #1",
+  "time" : {
+    "start" : 1613998292441,
+    "stop" : 1613998316680,
+    "duration" : 24239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c47a16de3f340a8",
+  "name" : "Buying Unit #2",
+  "time" : {
+    "start" : 1613998316694,
+    "stop" : 1613998339369,
+    "duration" : 22675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32dce7ba751d6419",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613998197072,
+    "stop" : 1613998201071,
+    "duration" : 3999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6340fc3b3b7a1a7b",
+  "name" : "Registration Unit",
+  "time" : {
+    "start" : 1613998259346,
+    "stop" : 1613998283089,
+    "duration" : 23743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b13b11af25382d58",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997566598,
+    "stop" : 1613997572058,
+    "duration" : 5460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0e67dd9793ab8de",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613998283469,
+    "stop" : 1613998288042,
+    "duration" : 4573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f41678183e77603f",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613998288055,
+    "stop" : 1613998292419,
+    "duration" : 4364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce0677cb66ea6e80",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997327888,
+    "stop" : 1613997334707,
+    "duration" : 6819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83e3eb0161659a94",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997334727,
+    "stop" : 1613997339614,
+    "duration" : 4887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e10785ecb56c53b",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997749469,
+    "stop" : 1613997755211,
+    "duration" : 5742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86480c708555ce32",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613997755230,
+    "stop" : 1613997759872,
+    "duration" : 4642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4b97f85ab2cf60",
+  "name" : "Sharing Unit",
+  "time" : {
+    "start" : 1613998191787,
+    "stop" : 1613998197056,
+    "duration" : 5269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
